@@ -1,0 +1,371 @@
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+html, body{
+	font-family: 'Francois One', sans-serif;
+	font-size: 100%;
+}
+.navbar{
+	margin:0px;
+}
+.top-header {
+    background: #353535;
+    padding: .7em 0;
+}
+.top-header-left {
+    float: left;
+    width: 50%;
+}
+.top-header-right {
+    float: right;
+    width: 25%;
+}
+.top-header-right-info {
+    float: left;
+}
+.top-header-right-info ul {
+    padding: 0;
+    margin: 0;
+}
+.top-header-right-info ul li {
+    display: inline-block;
+    margin: 0 .7em;
+}
+.top-header-left p {
+    color: #909090;
+    font-size: .7em;
+    margin: 0.5em 0 0 20em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.top-header-right-info ul li a:hover {
+    text-decoration: none;
+    color: #3c754a;
+}
+
+.top-header-right-info ul li a {
+    color: #909090;
+    font-size: .7em;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+a:hover, a:focus {
+    color: #23527c;
+    text-decoration: underline;
+}
+.top-nav ul {
+    padding: 0;
+    margin: 0 0 0 11em;
+    float: none;
+}
+.logo {
+    position: absolute;
+    top: 0;
+    width: 170px;
+    z-index: 999;   
+    height:90px;    
+}
+.logo img{
+	width: 170px;	
+}
+
+
+.top-nav ul li a {
+    color: #353535 !important;
+    font-size: 1em;
+    font-family: 'Francois One', sans-serif;
+    margin: 0;
+    text-decoration: none;
+    padding: 1.1em;
+    border-right: solid 1px #EFEFEF;
+    box-shadow: 1px 0px 0px 0px rgba(72, 72, 72, 0);
+}
+.top-nav ul li a.active {
+    color: #1b926c !important;
+}
+.carousel-content{
+	color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.carousel-content p{
+	font-size:14px;
+}
+.carousel-inner .item>div{
+	height: 450px;
+	background:rgba(0,0,0,0.4);    
+	padding: 10em 0 13em;
+}
+.parallax-window{
+	height: 450px;
+}
+.steps-graphics{
+	margin:0px;
+	width:100%;
+	padding: 0.5em;
+	color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    height: 380px;
+}
+
+.steps-graphics>div{
+	margin:4em 0em;
+}
+.thumbnail p{
+	font-size:14px;
+}
+.jumbotron{
+	text-align:center;
+	font-size: 1em;
+	background-color: #f8f8f8;
+	margin:0px;
+}
+.jumbotron p{	
+	font-size: 1em;
+}
+.breadcrumb{
+	  background: #353535;
+    padding: .7em 0;
+}
+
+a.facebook {
+    color: #FFF!important;
+    font-size: 1em!important;
+    margin: 0 .5em!important;
+}
+
+a.facebook:hover {
+    color: #3b5998!important;
+}
+
+.footer-nav h4 {
+    color: #3c754a !important;
+    font-size: 2em;
+    margin: 0 0 1em 0;
+    font-family: 'Francois One', sans-serif;
+}
+
+.footer-nav.col-md-5 h6 {
+    color: #3c754a !important;
+    font-size: 1em;   
+}
+
+.footer{
+	background-color: #f8f8f8;
+}
+
+.footer-nav ul {
+    padding: 0;
+    margin: 0;
+}
+.footer-nav ul li {
+    display: block;
+    margin: 1em 0;
+}
+
+.footer-nav ul li a {
+    color: #353535;
+    font-size: 1em;
+    font-family: 'Francois One', sans-serif;
+}
+
+.footer-nav ul li a:hover {
+    color: #2DCB74;
+    text-decoration: none;
+}
+
+.news-grid h6 a {
+    color: #353535;
+}
+.news-grid h6 a:hover {
+    color: #2DCB74;
+    text-decoration: none;
+}
+.copyright p {
+    font-size: .875em;
+    color: #353535;
+    margin: 0;
+}
+.blog{
+	padding: 4em 0;
+	background-color: #f8f8f8;
+}
+.blog .jumbotron{
+	padding:0px
+}
+
+
+.blog {
+    padding: 4em 0;
+}
+.blog-heading{
+	text-align:center;
+}
+.blog-top-grids {
+    margin: 4em 0 0 0;
+}
+.blog-left {
+  margin: 0em 0 2em 0;
+  padding-right: 1em;
+}
+.blog-left-right {
+  margin-top: 1em;
+}
+.blog-left-right a{
+    font-size: 1.2em;
+    margin: 0 0 .5em 0;
+    color: #353535;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.blog-left-right a:hover{
+    text-decoration: none;
+    color: #DBAC76;
+}
+.blog-left-left {
+	padding: 0 !important;
+}
+.blog-left-left p{
+    margin: 0 0 1em;
+    font-size: .9em;
+    color: #555555;
+}
+.blog-left-left p a {
+    color: #2DCB74;
+    text-decoration: none;
+}
+.blog-left-left p a:hover{
+	color:#DBAC76;
+}
+.blog-left-left a img{
+	width:100%;
+}
+.blog-left-right p{
+    font-size: .9em;
+    margin: 0.5em 0;
+    color: #353535;
+    line-height: 1.8em;
+}
+ul.pagination {
+  margin: 2em 0 0;
+}
+.blog-top-right-grid {
+  padding-right: 0 !important;
+}
+.Categories {
+	margin:0;
+}
+.Categories h3{
+    font-size: 1.5em;
+    margin: 0 0 1em 0;
+    padding-bottom: .5em;
+    color: #2DCB74;
+}
+.Categories ul{
+	margin:0;
+	padding:0;
+}
+.Categories ul li{
+    display: block;
+    background: url(../images/arrow.png) no-repeat 0px 2px;
+    margin-bottom: 1em;
+}
+.Categories ul li a{
+	font-size: .875em;
+    margin: 0;
+    color: #353535;
+    padding-left: 2em;
+}
+.Categories ul li a:hover{
+  color: #2DCB74;
+  text-decoration: none;
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+}
+.comments{
+	margin: 4em 0;
+}
+.comments h3{
+    font-size: 1.5em;
+    margin: 0 0 1em 0;
+    padding-bottom: .5em;
+    color: #2DCB74;
+}
+.comments-left{
+    padding: .5em;
+    border: 1px solid #000000;
+}
+.comments-left img{
+	width:100%;
+}
+.comments-right h5{
+    font-size: 1em;
+    margin: 0 0 .5em 0;
+    color: #2DCB74;
+    letter-spacing: 1px;
+}
+.comments-right a{
+    font-size: 1em;
+    margin: 0;
+    color: #575353;
+    text-decoration: none;
+}
+.comments-right a:hover{
+	text-decoration:none;
+}
+.comments-right p{
+    display: block;
+    color: #DBAC76;
+    margin: .3em 0 0 0;
+    font-size: .8em;
+}
+.comments-text {
+	padding: 1.5em 0;
+	border-bottom: 1px solid #868686;
+}
+.comments-text:nth-child(4) {
+	border: none;
+}
+.pagination > li > a, .pagination > li > span{
+	color:#353535;
+	background-color: #F4F7F9;
+}
+
+
+
+@media (max-width:991px){
+	
+	.steps-graphics>div{
+		width:33.33333%;
+		float:left;
+	}
+	
+	.Categories {
+		margin: 2em 0 0 0;
+	}
+	.comments-left {
+		width: 20%;
+		float: left;
+	}
+	.comments-right {
+		float: left;
+	}
+	.comments {
+		margin: 2em 0 0 0;
+	}
+	.comments h3 {
+		margin: 0 0 0em 0;
+	}
+}
+
+
+
